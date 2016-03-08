@@ -4,7 +4,7 @@ This is a Brunch-based boilerplate that can be used as a starting point to easil
 
 ## Getting started
 
-- Install Brunch: `npm install -g brunch`
+- Install Brunch: `sudo npm install -g brunch`
 - Create a new project based on this skeleton: `brunch n MyApp -s plugnburn/z9-kickstart`
 - Enter project directory: `cd MyApp`
 - Run a debug server: `brunch w --server`
