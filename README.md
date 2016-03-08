@@ -21,7 +21,9 @@ This is a Brunch-based boilerplate that can be used as a starting point to easil
 
 When you're ready, just run `brunch b -p` or `npm run build` to make a production build and then copy everything out of `public` directory in your project.
 
-You can also use built-in deployment to [Surge](//surge.sh) hosting after running `brunch b -p`:
+You can also use built-in deployment to [Surge](//surge.sh) hosting:
 
-- create a file `domain.txt` with your desired domain (or `.surge.sh` subdomain) in the project root;
+- fill the `config` section of `package.json` with your desired domain (or `.surge.sh` subdomain) under the `domain` key;
 - execute `npm run deploy`.
+
+To unhost your project from Surge, just run `npm run undeploy`.
