@@ -8,9 +8,6 @@ This is a Brunch-based boilerplate that can be used as a starting point to easil
 - Create a new project based on this skeleton: `brunch n MyApp -s plugnburn/z9-kickstart`
 - Enter project directory: `cd MyApp`
 - Run a debug server: `brunch w --server`
-- When you're ready, run `brunch b -p` to make a production build and then copy everything out of `public` directory in your project
-- If deploying with [Surge](//surge.sh) or GitHub Pages, add a `CNAME` file to the production build directory
-- If deploying with Surge, rename `index.html` to `200.html` in the production build directory
 
 ## File structure
 
@@ -19,3 +16,12 @@ This is a Brunch-based boilerplate that can be used as a starting point to easil
 - Actions dir: `app/actions/`
 - Custom styles dir: `app/css/`
 - HTML entry point: `app/assets/index.html`
+
+## Deployment
+
+When you're ready, just run `brunch b -p` to make a production build and then copy everything out of `public` directory in your project.
+
+You can also use built-in deployment to [Surge](//surge.sh) hosting after running `brunch b -p`:
+
+- create a file `domain.txt` with your desired domain (or `.surge.sh` subdomain) in the project root;
+- run `npm deploy`.
