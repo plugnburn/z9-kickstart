@@ -1,6 +1,6 @@
 # Z9 Kickstart
 
-This is a Brunch-based boilerplate that can be used as a starting point to easily create an app based on [999.css](http;//999.surge.sh) and [ZenQRXT library stack](https://gist.github.com/plugnburn/4b2344db3e78ac37f021).
+This is a Brunch-based boilerplate that can be used as a starting point to easily create an app based on [999.css](http://999.surge.sh) and [ZenQRXT library stack](https://gist.github.com/plugnburn/4b2344db3e78ac37f021).
 
 ## Getting started
 
