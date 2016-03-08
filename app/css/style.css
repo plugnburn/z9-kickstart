@@ -1,0 +1,11 @@
+/* start placing your custom styles here */
+
+html, body {
+	height:100vh;
+	overflow:auto;
+}
+
+#approot, #approot > .fr {
+	height:100%;
+	overflow:auto;
+}
