@@ -10,7 +10,7 @@
   "scripts": {
     "start": "brunch watch --server",
     "build": "brunch build --production",
-	"deploy": "mv public/index.html public/200.html && surge public $(<domain.txt)"
+	"deploy": "brunch build --production && mv public/index.html public/200.html && surge public $(<domain.txt)"
   },
   "dependencies": {},
   "devDependencies": {
