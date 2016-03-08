@@ -10,7 +10,7 @@ This is a Brunch-based boilerplate that can be used as a starting point to easil
 - Run a debug server: `brunch w --server`
 - When you're ready, run `brunch b -p` to make a production build and then copy everything out of `public` directory in your project
 - If deploying with [Surge](//surge.sh) or GitHub Pages, add a `CNAME` file to the production build directory
-- If deploying with Surge, rename `index.html` to `200.html` the production build directory
+- If deploying with Surge, rename `index.html` to `200.html` in the production build directory
 
 ## File structure
 
